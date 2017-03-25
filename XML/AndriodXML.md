@@ -30,3 +30,85 @@ android:id="@+id/ "
   - '+'기호는 id를 새로 정의한다는 뜻, 처음 정의할 때만 붙이고 참조할 때는 붙이지 않음
   - 소문자 id는 예약어
   - '/'뒤에 원하는 이름 작성
+
+### 뷰의 배경을 설정
+```
+android:background="#RGB"
+```
+* 설정
+  - #RGB
+  - #ARGB(A:Alpha, R:Red, G:Green, B:Blue)
+  - #RRGGBB
+  - #AARRGGBB
+
+### 뷰를 추가하는 방향을 설정
+```
+android:orientation=" "
+```
+* 설정
+  - vertical : 세로 방향으로 추가
+  - horizontal : 가로 방향으로 추가
+
+### 뷰의 정렬 반향을 설정, 뷰의 화면에 표시하는 내용물을 정렬
+```
+android:gravity=""
+```
+* 설정
+  - top : 해당 위젯을 윗쪽에 위치 시킵니다. 이때 사이즈에 변화는 없습니다.
+  - bottom : 해당 위젯을 하단에 위치 시킵니다. 이때 사이즈에 변화는 없습니다.
+  - left : 해당 위젯을 왼쪽에 위치 시킵니다. 이때 사이즈에 변화는 없습니다.
+  - right : 해당 위젯을 오른쪽에 위치 시킵니다. 이때 사이즈에 변화는 없습니다.
+  - center_vertical : 해당 위젯을 세로 중앙에 위치 시킵니다. 이때 사이즈에 변화는 없습니다.
+  - fill_vertical : 해당 위젯의 세로를 부모 뷰그룹의 사이즈에 맞게 늘려 채워줍니다.
+  - center_horizontal : 해당 위젯을 가로 중앙에 위치 시깁니다. 이때 사이즈에 변화는 없습니다.
+  - fill_horizontal : 해당 위젯의 가로를 부모 뷰그룹의 사이즈에 맞게 늘려 채워줍니다.
+  - center : 해당 위젯을 정중앙에 위치 시킵니다. 이때 사이즈의 변화는 없습니다.
+  - fill : 해당 위젯을 가로/세로 길이를 부모 뷰그룹의 사이즈에 맞게 늘려 채워줍니다.
+  - clip_vertical : 해당 위젯의 세로 길이가 부모 뷰그룹보다 클 경우 넘어서는 부분은 잘라냅니다.
+  - clip_horizontal : 해당 위젯의 가로 길이가 부모 뷰그룹 보다 클 경우 넘어서는 부분은 잘라냅니다.
+  - start : 해당 위젯을 부모 뷰그룹의 시작점에 위치 시켜 줍니다. 이때 사이즈의 변화는 없습니다.
+  - end : 해당 위젯을 부모 뷰그룹의 마지막에 위치 시켜 줍니다. 이때 사이즈의 변화는 없습니다.
+  - 두가지 이상의 방향을 설정할 때에는 '|'를 사용하여 여러 속성값을 적용
+
+### 뷰의 여유공간을 설정(안쪽 여백)
+```
+android:pandding=" "
+android:panddingLeft=" "
+android:panddingRight=" "
+android:panddingTop=" "
+android:panddingBottom=" "
+```
+* 설정
+  - pandding 속성은 상하좌우 모든 방향에 적용
+  - 각 방향의 여배을 다른 값으로 설정 가능
+
+### 뷰와 부모와의 간격(바깥 여백)
+```
+android:margin=" "
+```
+### 뷰의 표시 유무를 결정
+```
+android:visibility=" "
+```
+* 설정
+  - visible : 보이는 상태
+  - invisible : 보이지 않는 상태, 자리 차지
+  - gone : 보이지 않는 상태, 자리 차지 X
+
+### 부모가 컨테이너의 여유 공간에 뷰가 모두 채워지지 않아 여유 공간 안에서 뷰를 정렬
+```
+android:layout_gravity=" "
+```
+
+### 키보드 포커스를 받을 수 있을지 결정
+```
+android:focusable=" "
+```
+* 설정
+  - true : Default 값
+  - false : 사용자의 입력을 받아야 하는 것은 이 속성의 Default값이 true로 지정
+
+
+## 참고 문서
+* [초보 개발자](http://freehoon.tistory.com/entry/안드로이드-gravity-속성)
+* [Azdesign™](http://azdesigntm.com/329)
