@@ -28,9 +28,9 @@ $ sudo vi /etc/mpd.conf
 
 * Music Play Daemon(MPD) 설정
 
-**'#'은 주석을 의미 한다.**
+  **'#'은 주석을 의미 한다.**
 
-  - Files and directories 설정
+  * Files and directories 설정
   ```
   14  music_directory		"/music"
 
@@ -45,7 +45,7 @@ $ sudo vi /etc/mpd.conf
   56  sticker_file     "/var/lib/mpd/sticker.sql"
   ```
 
-  - General music daemon options 설정
+  * General music daemon options 설정
   ```
   68  user				"root"
 
@@ -60,7 +60,7 @@ $ sudo vi /etc/mpd.conf
   127 auto_update    "yes"
   ```
 
-  - input 설정
+  * input 설정
   ```
   193   input {
   194          plugin "curl"
@@ -70,7 +70,7 @@ $ sudo vi /etc/mpd.conf
   198   }
   ```
 
-  - Audio Output 설정
+  * Audio Output 설정
   ```
   212   audio_output {
   213 	 type		"alsa"
@@ -83,7 +83,7 @@ $ sudo vi /etc/mpd.conf
   220   }
   ```
 
-  - Character Encoding 설정
+  * Character Encoding 설정
   ```
   387   filesystem_charset		"UTF-8"
 

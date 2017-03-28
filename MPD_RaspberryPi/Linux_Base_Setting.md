@@ -1,7 +1,7 @@
 Linux 기본 설치및 설정
 =====================
 
-##기본 설치 및 셋팅
+## 기본 설치 및 셋팅
 
 ### vim 설치및 설정 (vi 상향버전)
 
@@ -11,11 +11,13 @@ sudo apt-get install vim
 ```
 
 * vim 환경 설정
+```
 vi ~/.vimrc
+```
 
 * vim 설정파일을 열고 난 후에 i 키를 누릅니다.
 * vim 기본 설정 파일에 하단의 명령어 입력 후 저장합니다.("는 주석을 뜻한다.)
-
+```
 set number            " line 표시를 해줍니다.
 set ai                    " auto indent
 set si                    " smart indent
@@ -44,6 +46,7 @@ syntax on        " 문법 하이라이트 킴"
 ### 설치된 패키지 업데이트 및 업그레이드
 ```
 sudo apt-get update
+
 sudo apt-get upgrade  
 ```
 
