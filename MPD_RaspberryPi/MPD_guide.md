@@ -89,3 +89,14 @@ $ sudo vi /etc/mpd.conf
 
   391   id3v1_encoding			"UTF-8"
   ```
+  **설정 저장후 재시작**
+  * MPD 재시작
+  ```
+  $ /etc/init.d/mpd restart
+  ```
+
+  * MPD가 실행중인지 확인
+  ```
+   $ ps -ef | grep mpd
+  ```
+  
