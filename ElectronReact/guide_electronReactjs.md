@@ -123,7 +123,7 @@ https://github.com/YoongChanKim/TIL/blob/master/Javascript/Reactjs/create-react-
 ##  베포 방법
 1. npm run build react를 배포파일로 빌드한다.
 
-2. electron-packager를 사용해 electron 실행파일로 배포한다.(참고문서) 
+2. electron-packager를 사용해 electron 실행파일로 배포한다.( https://github.com/YoongChanKim/TIL/blob/master/ElectronReact/Electron_build.md 링크 참조) 
 
 ### 관련 github 프로젝트
 
