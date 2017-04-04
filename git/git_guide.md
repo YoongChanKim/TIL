@@ -77,7 +77,8 @@ pick 7a34294 Add feature-C
 fixup 6fsdfa2 Fix typo
 # 뭉개고 싶은 커밋에 'fixup'으로 고쳐주고 저장.
 
-git remote add origin git@github.com:사용자명/저장소이름.git
+git remote add origin repository URL 작성
+
 # 주소의 저장소를 원격 저장소로 설정
 
 git push -u origin master
@@ -97,8 +98,22 @@ git checkout -b feature-D origin/feature-D
 
 git --version
 #현재 git의 버전을 확인합
-
 ```
+### 에러 해결
+  * 에러
+  ```
+  error: failed to push some refs to 'https://github.com/YoongChanKim/VHDL.git'
+  hint: Updates were rejected because the tip of your current branch is behind
+  hint: its remote counterpart. Integrate the remote changes (e.g.
+  hint: 'git pull ...') before pushing again.
+  hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+  ```
+  * 해결
+  ```
+  git pull --rebase origin master
+  git push origin master
+  ```
+  상단의 명령어 작성
 
 ### 커밋 메세지
 - 첫 번째 줄: 변경 내용 한 줄 요약
