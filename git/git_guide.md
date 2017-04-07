@@ -7,6 +7,14 @@ github 가이드북
 - HEAD는 현재 브랜치의 가장 최신커밋을 의미한다.
 - 기본원격 저장소를 origin이라고 부른다.
 
+## 처음시작할때 명령어 순서
+
+1. git init
+2. git add README.md
+3. git commit -m "first commit"
+4. git remote add origin ```레포지토리 URL 작성```
+5. git push -u origin master
+
 ## git 기본 명령어
 
 ```shell
