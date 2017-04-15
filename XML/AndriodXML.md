@@ -108,7 +108,44 @@ android:focusable=" "
   - true : Default 값
   - false : 사용자의 입력을 받아야 하는 것은 이 속성의 Default값이 true로 지정
 
+## Button 클릭 시 Button의 background 색 변경
+버튼을 누르고 있는 동안 색을 바꿔주는 효과를 넣고 싶을때 사용한다.
+
+1. res/drowable 디렉토리 안에 button_selector.xml파일 생성 후 소스 작성
+  ```
+  <selector xmlns:android="http://schemas.android.com/apk/res/android">
+      <item android:state_pressed="true" android:drawable="@drawable/bg_select"/>
+      <item android:state_focused="true" android:drawable="@drawable/bg_select"/>
+      <item android:state_pressed="true" android:drawable="@drawable/bg_select"/>
+      <item android:drawable="@drawable/bg"/>
+  </selector>
+  ```
+2. res/value/colors.xml 파일에 소스 작성
+  ```
+  <?xml version="1.0" encoding="utf-8"?>
+  <resources>
+      <color name="colorPrimary">#3F51B5</color>
+      <color name="colorPrimaryDark">#303F9F</color>
+      <color name="colorAccent">#FF4081</color>
+      <color name="colorWhite">#FFFFFF</color>
+      <color name="colorBlue">#2196F3</color>
+      <drawable name="bg_select">#2196F3</drawable>
+      <drawable name="bg">#EEEEEE</drawable>
+  </resources>
+  ```
+
+3. activity_main.xml
+  ```
+  <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_selector"
+    android:text="ButtonTest"/>
+  ```
+
+
 
 ## 참고 문서
 * [초보 개발자](http://freehoon.tistory.com/entry/안드로이드-gravity-속성)
 * [Azdesign™](http://azdesigntm.com/329)
+* 출처: http://dutax.tistory.com/2 [Dutax의 안드로이드]
