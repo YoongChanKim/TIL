@@ -15,7 +15,7 @@ DFS 알고리즘은 더 이상 이동이 가능하지 않을 때까지 진행 �
 
 ## 탐색 순서
 
-![깊이우선탐색](D:\TIL\DataStructure\Algorithm\DFS.PNG)
+![깊이우선탐색](https://github.com/YoongChanKim/TIL/blob/master/DataStructure/Algorithm/DFS/DFS.PNG)
 
 그래프를 보면 각 __정점(Vertex)__ 이 있고 정점마다 __간선(Edge)__ 로 연결되어 있다.
 (1번 정점을 시작으로 방문한다 가정한다.)
@@ -43,7 +43,7 @@ DFS를 구현하기 위해 정점 사이의 관계를 알아야 해서 인접 �
 ## 인접 행렬
 인접 행렬이란 정점과 정점 사이의 관계를 행렬로 표현한 것 이다.
 
-![인접행렬](D:\TIL\DataStructure\Algorithm\Adjacency Matrix.PNG)
+![인접행렬](https://github.com/YoongChanKim/TIL/blob/master/DataStructure/Algorithm/DFS/Adjacency%20Matrix.PNG)
 
 위의 이미지를 보면 ```[A][A], [B][B], [C][C], [D][D]```는 0이 되고 대각선을 기준으로 대칭이 되는 것을 알 수 있다.
 
