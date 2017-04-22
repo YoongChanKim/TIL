@@ -46,8 +46,13 @@ syntax on        " 문법 하이라이트 킴"
 ### 설치된 패키지 업데이트 및 업그레이드
 ```
 sudo apt-get update
-
 sudo apt-get upgrade  
 ```
+
+### 한글 폰트 깨짐 현상 해결
+```
+sudo apt-get install ttf-unfonts-core
+```
+명령어 작업 후 reboot 한다.
 
 출처: http://norux.me/13 [노루의 씨분투 세상]
