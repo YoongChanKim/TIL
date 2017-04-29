@@ -49,10 +49,13 @@ PyCharm Educational Edition은 파이썬으로 프로그램을 작성할 때 사
 #### 문자열
 문자열이란 문자 의 나열을 뜻한다. 문자열은 간단하게 문자들의 집합이다.
   - 작은 따옴표 : 문자열을 지정할 수 있다. 예) '작은따옴표로 문자열 지정'
+
   - 큰 따옴표 : 문자열을 지정할 수 있다.(큰따움표로 둘러싸인 문자열 안에 작은 따움표가 포함되어도 된다.) 예)"큰따옴표로 문자열 지정"
+
   - 따옴표 세 개 : 여러 줄에 걸친 문자열은 세 개의 따옴표로 표현할 수 있다. (''' or """)
  세 개의 따옴표로 묶여진 문자열 안에서는 작은 따옴표든 큰 따옴표든 마음대로 사용할 수 있다.
- 예)
+
+ Ex)
  ```
  '''This is a multi-line string. This is the first line.
  This is the second line.
@@ -60,7 +63,29 @@ PyCharm Educational Edition은 파이썬으로 프로그램을 작성할 때 사
  He said "Bond, James Bond."
  '''
  ```
- 
+
+  - 문자열 수정 불가
+  문저열을 한번 말들면, 그 문자열의 내용은 더이상 변경할 수 없다.
+
+  - 문자열 포맷팅
+  문자열을 생성하려고 할 때, 다른 정보들을 포함하여 생성하고 싶을 때가 있다. 이 것을 문자열 포맷팅이라 하며,이를 위해 format()을 이용한다.
+
+  동작 원리는 중괄호로 표현된 특별한 표시들이 포함된 문자열을 만들고, 그 후애 문자열의 format 메소드를 사용하여 format 메소드에 주어진 인자들로 치환한다.(파이썬은 수자를 셀 때 항상 0부터 세기 시작한다. 즉, 첫번째 인자의 인덱스는 0이다.)
+
+  Ex)
+  ```
+  age = 20
+  name = 'Swaroop'
+  print '{0} was {1} years old when he wrote this book'.format(name, age)
+  print 'Why is {0} playing with that python?'.format(name)
+  ```  
+
+  실행 결과)
+  ```
+  Swaroop was 20 years old when he wrote this book
+  Why is Swaroop playing with that python?
+  ```
+  
 
 ##### 참고문서및 유용한 사이트
 * 파이썬튜토얼 : http://pythontutor.com/live.html#mode=edit
