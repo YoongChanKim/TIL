@@ -85,7 +85,10 @@ PyCharm Educational Edition은 파이썬으로 프로그램을 작성할 때 사
   Swaroop was 20 years old when he wrote this book
   Why is Swaroop playing with that python?
   ```
-  
+
+  ```
+  name + 'is' + str(age) + 'years old'
+  ```
 
 ##### 참고문서및 유용한 사이트
 * 파이썬튜토얼 : http://pythontutor.com/live.html#mode=edit
