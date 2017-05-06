@@ -83,49 +83,49 @@ PyCharm Educational Edition은 파이썬으로 프로그램을 작성할 때 사
   print 'Why is {0} playing with that python?'.format(name)
   ```  
 
-    * 중괄호 내에 주어진 숫자는 생략할 수 있다.
+  * 중괄호 내에 주어진 숫자는 생략할 수 있다.
 
-    ```
-    age = 20
-    name = 'Swaroop'
-    print '{} was {} years old when he wrote this book'.format(name, age)
-    print 'Why is {} playing with that python?'.format(name)
-    ```
+  ```
+  age = 20
+  name = 'Swaroop'
+  print '{} was {} years old when he wrote this book'.format(name, age)
+  print 'Why is {} playing with that python?'.format(name)
+  ```
 
-    실행 결과)
-    ```
-    Swaroop was 20 years old when he wrote this book
-    Why is Swaroop playing with that python?
-    ```
+  실행 결과)
+  ```
+  Swaroop was 20 years old when he wrote this book
+  Why is Swaroop playing with that python?
+  ```
 
-    * 다른 방법의 문자열 포맷팅
+  * 다른 방법의 문자열 포맷팅
 
-    문자열 더하기를 이용하여 동일한 결과를 얻을 수 있다.
+  문자열 더하기를 이용하여 동일한 결과를 얻을 수 있다.
 
-    ```
-    name + 'is' + str(age) + 'years old'
-    ```
+  ```
+  name + 'is' + str(age) + 'years old'
+  ```
 
-    * 파이썬의 'format'은 중괄호에 주어진 인자들의 값을 치환해서 넣는다. 중괄호에 상세히 세부사항을 지정 할 수 있다.
+  * 파이썬의 'format'은 중괄호에 주어진 인자들의 값을 치환해서 넣는다. 중괄호에 상세히 세부사항을 지정 할 수 있다.
 
-    Ex)
-    ```
-    # 소수점 이하 셋째 자리까지 부동 소숫점 숫자 표기 (0.333)
-    print '{0:.3f}'.format(1.0/3)
+  Ex)
+  ```
+  # 소수점 이하 셋째 자리까지 부동 소숫점 숫자 표기 (0.333)
+  print '{0:.3f}'.format(1.0/3)
 
-    # 밑줄(_)로 11칸을 채우고 가운데 정렬(^)하기 (___hello___)
-    print '{0:_^11}'.format('hello')
+  # 밑줄(_)로 11칸을 채우고 가운데 정렬(^)하기 (___hello___)
+  print '{0:_^11}'.format('hello')
 
-    # 사용자 지정 키워드를 이용해 (Swaroop wrote A Byte of Python) 표기
-    print '{name} wrote {book}'.format(name='Tony', book='Python study')
-    ```
+  # 사용자 지정 키워드를 이용해 (Swaroop wrote A Byte of Python) 표기
+  print '{name} wrote {book}'.format(name='Tony', book='Python study')
+  ```
 
-    실행 결과)
-    ```
-    0.333
-    ___hello___
-    Tony wrote Python study
-    ```
+  실행 결과)
+  ```
+  0.333
+  ___hello___
+  Tony wrote Python study
+  ```
 
   - 이스케이프(Escape) 문자
 
