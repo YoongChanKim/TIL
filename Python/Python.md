@@ -56,14 +56,14 @@ PyCharm Educational Edition은 파이썬으로 프로그램을 작성할 때 사
   - 따옴표 세 개 : 여러 줄에 걸친 문자열은 세 개의 따옴표로 표현할 수 있다. (''' or """)
  세 개의 따옴표로 묶여진 문자열 안에서는 작은 따옴표든 큰 따옴표든 마음대로 사용할 수 있다.
 
-   Ex)
-   ```
-   '''This is a multi-line string. This is the first line.
-   This is the second line.
-   "What's your name?," I asked.
-   He said "Bond, James Bond."
-   '''
-   ```
+ Ex)
+ ```
+ '''This is a multi-line string. This is the first line.
+ This is the second line.
+ "What's your name?," I asked.
+ He said "Bond, James Bond."
+ '''
+ ```
 
   - 문자열 수정 불가
 
@@ -75,13 +75,13 @@ PyCharm Educational Edition은 파이썬으로 프로그램을 작성할 때 사
 
   동작 원리는 중괄호로 표현된 특별한 표시들이 포함된 문자열을 만들고, 그 후애 문자열의 format 메소드를 사용하여 format 메소드에 주어진 인자들로 치환한다.(파이썬은 수자를 셀 때 항상 0부터 세기 시작한다. 즉, 첫번째 인자의 인덱스는 0이다.)
 
-    Ex)
-    ```
-    age = 20
-    name = 'Swaroop'
-    print '{0} was {1} years old when he wrote this book'.format(name, age)
-    print 'Why is {0} playing with that python?'.format(name)
-    ```  
+  Ex)
+  ```
+  age = 20
+  name = 'Swaroop'
+  print '{0} was {1} years old when he wrote this book'.format(name, age)
+  print 'Why is {0} playing with that python?'.format(name)
+  ```  
 
     * 중괄호 내에 주어진 숫자는 생략할 수 있다.
 
@@ -131,23 +131,23 @@ PyCharm Educational Edition은 파이썬으로 프로그램을 작성할 때 사
 
   문자열의 시작과 끝이 어디부터 어디까지인지 이스케이프 문자를 이용하여 구분할 수 있다. 예를 들어 작은 따움표를 포함하고 있는 ```What's your name?``` 이러한 문자열과 같이 중간에 작은 따움표가 있는 것과 같은 경우에 사용된다.
 
-    * 사용법)
-      작은 따움표 앞에 ```\'``` 문자를 표기 하면 된다. 다른 방법으로는 큰 따옴표를 사용하여 ```"what's a your name?"```와 같이 사용 가능 하다.
+  * 사용법)
+    작은 따움표 앞에 ```\'``` 문자를 표기 하면 된다. 다른 방법으로는 큰 따옴표를 사용하여 ```"what's a your name?"```와 같이 사용 가능 하다.
 
-      - ```\```문자를 표기 하고 싶다면 ```\\``` 라고 표기 하면 된다.
+    - ```\```문자를 표기 하고 싶다면 ```\\``` 라고 표기 하면 된다.
 
-      - ```\n``` 줄바꿈을 할때 사용되는 문자이다.
+    - ```\n``` 줄바꿈을 할때 사용되는 문자이다.
 
-      - ```\t``` 탭을 할때 사용되는 문자이다.
+    - ```\t``` 탭을 할때 사용되는 문자이다.
 
-      - 유용한 것은 문자열을 정의할 때 줄의 끝에 ```\``` 문자를 붙여 주면, 그 다음 줄에 정의된
-        문자열을 끊김없이 이어 붙여 문자열을 정의하게 됩니다.
+    - 유용한 것은 문자열을 정의할 때 줄의 끝에 ```\``` 문자를 붙여 주면, 그 다음 줄에 정의된
+      문자열을 끊김없이 이어 붙여 문자열을 정의하게 됩니다.
 
-        Ex)
-        ```
-        "This is the first sentence. \
-        This is the second sentence."
-        ```
+      Ex)
+      ```
+      "This is the first sentence. \
+      This is the second sentence."
+      ```
 
   - 순 문자열
 
