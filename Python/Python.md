@@ -23,6 +23,7 @@ PyCharm Educational Edition은 파이썬으로 프로그램을 작성할 때 사
 
 ### 기초
 몇가지 기본적인 기능들에 대해서 다뤄 볼것이다.
+
 #### 주석
 주석은 ```#```문자 뒤에 따라오는 짧은 문장이다. 주로 프로그램 소스코드를 읽는 사람들에게 작성한 프로그램이 무엇을 하는 프로그램인지 쉽게 파악할 수 있도록 도움을 주는 역활을 한다.
 
@@ -81,70 +82,72 @@ PyCharm Educational Edition은 파이썬으로 프로그램을 작성할 때 사
   print '{0} was {1} years old when he wrote this book'.format(name, age)
   print 'Why is {0} playing with that python?'.format(name)
   ```  
-  __중괄호 내에 주어진 숫자는 생략할 수 있다.__
 
-  ```
-  age = 20
-  name = 'Swaroop'
-  print '{} was {} years old when he wrote this book'.format(name, age)
-  print 'Why is {} playing with that python?'.format(name)
-  ```
+    * 중괄호 내에 주어진 숫자는 생략할 수 있다.
 
-  실행 결과)
-  ```
-  Swaroop was 20 years old when he wrote this book
-  Why is Swaroop playing with that python?
-  ```
-  __다른 방법의 문자열 포맷팅__
+    ```
+    age = 20
+    name = 'Swaroop'
+    print '{} was {} years old when he wrote this book'.format(name, age)
+    print 'Why is {} playing with that python?'.format(name)
+    ```
 
-  문자열 더하기를 이용하여 동일한 결과를 얻을 수 있다.
-  ```
-  name + 'is' + str(age) + 'years old'
-  ```
+    실행 결과)
+    ```
+    Swaroop was 20 years old when he wrote this book
+    Why is Swaroop playing with that python?
+    ```
 
-  __파이썬의 'format'은 중괄호에 주어진 인자들의 값을 치환해서 넣는다. 중괄호에 상세히 세부사항을 지정 할 수 있다.__
+    * 다른 방법의 문자열 포맷팅
 
-  Ex)
-  ```
-  # 소수점 이하 셋째 자리까지 부동 소숫점 숫자 표기 (0.333)
-  print '{0:.3f}'.format(1.0/3)
+    문자열 더하기를 이용하여 동일한 결과를 얻을 수 있다.
+    ```
+    name + 'is' + str(age) + 'years old'
+    ```
 
-  # 밑줄(_)로 11칸을 채우고 가운데 정렬(^)하기 (___hello___)
-  print '{0:_^11}'.format('hello')
+    * 파이썬의 'format'은 중괄호에 주어진 인자들의 값을 치환해서 넣는다. 중괄호에 상세히 세부사항을 지정 할 수 있다.
 
-  # 사용자 지정 키워드를 이용해 (Swaroop wrote A Byte of Python) 표기
-  print '{name} wrote {book}'.format(name='Tony', book='Python study')
-  ```
+    Ex)
+    ```
+    # 소수점 이하 셋째 자리까지 부동 소숫점 숫자 표기 (0.333)
+    print '{0:.3f}'.format(1.0/3)
 
-  실행 결과)
-  ```
-  0.333
-  ___hello___
-  Tony wrote Python study
-  ```
+    # 밑줄(_)로 11칸을 채우고 가운데 정렬(^)하기 (___hello___)
+    print '{0:_^11}'.format('hello')
+
+    # 사용자 지정 키워드를 이용해 (Swaroop wrote A Byte of Python) 표기
+    print '{name} wrote {book}'.format(name='Tony', book='Python study')
+    ```
+
+    실행 결과)
+    ```
+    0.333
+    ___hello___
+    Tony wrote Python study
+    ```
 
   - 이스케이프(Escape) 문자
 
   문자열의 시작과 끝이 어디부터 어디까지인지 이스케이프 문자를 이용하여 구분할 수 있다. 예를 들어 작은 따움표를 포함하고 있는 ```What's your name?``` 이러한 문자열과 같이 중간에 작은 따움표가 있는 것과 같은 경우에 사용된다.
 
-  __사용법)__
+    * 사용법)
 
-    * 작은 따움표 앞에 ```\'``` 문자를 표기 하면 된다. 다른 방법으로는 큰 따옴표를 사용하여 ```"what's a your name?"```와 같이 사용 가능 하다.
+      * 작은 따움표 앞에 ```\'``` 문자를 표기 하면 된다. 다른 방법으로는 큰 따옴표를 사용하여 ```"what's a your name?"```와 같이 사용 가능 하다.
 
-    * ```\```문자를 표기 하고 싶다면 ```\\``` 라고 표기 하면 된다.
+      * ```\```문자를 표기 하고 싶다면 ```\\``` 라고 표기 하면 된다.
 
-    * ```\n``` 줄바꿈을 할때 사용되는 문자이다.
+      * ```\n``` 줄바꿈을 할때 사용되는 문자이다.
 
-    * ```\t``` 탭을 할때 사용되는 문자이다.
+      * ```\t``` 탭을 할때 사용되는 문자이다.
 
-    * 유용한 것은 문자열을 정의할 때 줄의 끝에 \ 문자를 붙여 주면, 그 다음 줄에 정의된
-      문자열을 끊김없이 이어 붙여 문자열을 정의하게 됩니다.
+      * 유용한 것은 문자열을 정의할 때 줄의 끝에 ```\``` 문자를 붙여 주면, 그 다음 줄에 정의된
+        문자열을 끊김없이 이어 붙여 문자열을 정의하게 됩니다.
 
-      Ex)
-      ```
-      "This is the first sentence. \
-      This is the second sentence."
-      ```
+        Ex)
+        ```
+        "This is the first sentence. \
+        This is the second sentence."
+        ```
 
   - 순 문자열
 
