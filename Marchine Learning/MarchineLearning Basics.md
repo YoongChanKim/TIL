@@ -25,10 +25,10 @@ Marchine Learning의 개념및 용어 정리
   지도 학습에는 분류(Classification)와 예측(Regression)이 있다.
   - 예측(Regression)은 데이터를 대표하는 선형모델 등을 만들고 그 모델을 통해 미래의 사건을 예측하는 것이다.
 
-  - 분류(Classification)는 이전까지 학습된 데이터를 근거로, 새로운 데이터가 기존에 학습된 데이터에  분류가 되냐 안되냐를 판단 할 수 있다.
+  - 분류(Classification)는 이전까지 학습된 데이터를 근거로, 새로운 데이터가 기존에 학습된 데이터에  분류가 되냐 안되냐를 판단 할 수 있다. 또한 Classification Type 에는 binary classification과 multi-label classification이 있다.  
   예시) 페이스북이나 구글 포토의 얼굴 인식: 페이스북에 사진을 올리면 친구 얼굴 위에 이름이 자동으로 달리고는 하는데, 이것 역시 기계학습을 이용한 것. x가 이미지 픽셀, y가 사람 이름인 경우.
 
-  예를 들면, 사람이 강아지 이미지를 모아서 주고 그 이미지 데이터가 고양이라는 레이블이 달려있는 자료를 가지고 학습을 하는 것이다. 즉, 결과를 알려주고 학습을 시키는 방법이다.
+  예를 들면, 사람이 강아지 이미지를 모아서 주고 그 이미지 데이터가 강아지라는 레이블이 달려있는 자료를 가지고 학습을 하는 것이다. 즉, 결과를 알려주고 학습을 시키는 방법이다.
 
   ![](https://github.com/YoongChanKim/TIL/blob/master/Marchine%20Learning/ML_Image/Supervised%20Learning.png)  
 
