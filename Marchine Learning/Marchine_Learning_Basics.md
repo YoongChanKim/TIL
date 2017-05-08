@@ -13,6 +13,7 @@ Marchine Learning의 개념및 용어 정리
 
 
 ![http://cfile9.uf.tistory.com/image/21570C41544F9C06114E0F](./Marchine_Learning_tree.png)
+
 이미지 이외에 다른 학습 종류들도 있다.
 
 ## Marchine Learning 학습 종류
