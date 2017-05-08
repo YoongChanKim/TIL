@@ -12,7 +12,7 @@ Marchine Learning의 개념및 용어 정리
   - 문자 인식
 
 
-![http://cfile9.uf.tistory.com/image/21570C41544F9C06114E0F](./Marchine_Learning_tree.png)
+![http://cfile9.uf.tistory.com/image/21570C41544F9C06114E0F](./ML_Image/Marchine_Learning_tree.png)
 
 이미지 이외에 다른 학습 종류들도 있다.
 
@@ -30,7 +30,7 @@ Marchine Learning의 개념및 용어 정리
 
   예를 들면, 사람이 강아지 이미지를 모아서 주고 그 이미지 데이터가 고양이라는 레이블이 달려있는 자료를 가지고 학습을 하는 것이다. 즉, 결과를 알려주고 학습을 시키는 방법이다.
 
-  ![](https://github.com/YoongChanKim/TIL/blob/master/Marchine%20Learning/Supervised%20Learning.PNG)  
+  ![](https://github.com/YoongChanKim/TIL/blob/master/Marchine%20Learning/ML_Image/Supervised%20Learning.png)  
 
 
 ### Unsupervised Learning(비지도 학습)
@@ -43,7 +43,7 @@ __지도 학습(Supervised)과 비지도 학습(Unsupervised)의 차이점(Graph
 - 지도 학습 : 데이터 라벨링이 되어 있다.
 - 비지도 학습 : 데이터 라벨링이 되어 있지 않다.(군집화)
 
-![http://cfile29.uf.tistory.com/image/2440C341544F9CAC3CF8D4](./ML-graph.png)
+![http://cfile29.uf.tistory.com/image/2440C341544F9CAC3CF8D4](./ML_Image/ML-graph.png)
 
 
 ### Semisupervised Learning(반지도 학습)
@@ -55,7 +55,7 @@ __지도 학습(Supervised)과 비지도 학습(Unsupervised)의 차이점(Graph
 
 
 ### Marchine Learning - Diagram
-![https://www.google.co.kr/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwj185rqq9_TAhVKbbwKHYBLAjYQjRwIBw&url=https%3A%2F%2Fswalloow.github.io%2Fpyml-intro1&psig=AFQjCNEk6MyUTYYWjmJCWIcX7ybPBjdUAA&ust=1494300103924916](./ml-diagram.png)
+![https://www.google.co.kr/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwj185rqq9_TAhVKbbwKHYBLAjYQjRwIBw&url=https%3A%2F%2Fswalloow.github.io%2Fpyml-intro1&psig=AFQjCNEk6MyUTYYWjmJCWIcX7ybPBjdUAA&ust=1494300103924916](./ML_Image/ml-diagram.png)
 
 
 ### Marchine Learning 주요 알고리즘
