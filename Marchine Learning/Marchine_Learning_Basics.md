@@ -30,7 +30,7 @@ Marchine Learning의 개념및 용어 정리
 
   예를 들면, 사람이 강아지 이미지를 모아서 주고 그 이미지 데이터가 고양이라는 레이블이 달려있는 자료를 가지고 학습을 하는 것이다. 즉, 결과를 알려주고 학습을 시키는 방법이다.
 
-  ![https://github.com/YoongChanKim/TIL/blob/master/Marchine%20Learning/Supervised%20Learning.PNG](./Supervised Learning.png)  
+  ![](https://github.com/YoongChanKim/TIL/blob/master/Marchine%20Learning/Supervised%20Learning.PNG)  
 
 ### Unsupervised Learning(비지도 학습)
 사람 없이 컴퓨터가 스스로 레이블 되어 있지 않은 데이터에 대해 학습하는 것을 Unsupervised Learning(비지도 학습)이라고 한다. 레이블(y)없이 입력(x)만 이용해서 학습하는 것이다. 통계학의 군집화와 분포추정 등의 분야와 밀접한 관련이 있다
