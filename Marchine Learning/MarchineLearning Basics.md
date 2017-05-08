@@ -61,7 +61,7 @@ __지도 학습(Supervised)과 비지도 학습(Unsupervised)의 차이점(Graph
 ### Marchine Learning 주요 알고리즘
 
 
-#### * Supervised Learning (지도 학습)
+####  __Supervised Learning (지도 학습)__
 
 - __Regression__
   + Linear Regression
@@ -74,7 +74,7 @@ __지도 학습(Supervised)과 비지도 학습(Unsupervised)의 차이점(Graph
   + Support Vector machine
   + Decision tree
 
-#### * Unsupervised Learning (비지도 학습)
+#### __Unsupervised Learning (비지도 학습)__
 
 - Clustering
 - K means
