@@ -12,8 +12,8 @@ Marchine Learning의 개념및 용어 정리
   - 문자 인식
 
 
-![http://bcho.tistory.com/966](./Marchine_Learning_tree.PNG)
-이미지 이외에 학습 종류들이 있다.
+![http://cfile9.uf.tistory.com/image/21570C41544F9C06114E0F](./Marchine_Learning_tree.png)
+이미지 이외에 다른 학습 종류들도 있다.
 
 ## Marchine Learning 학습 종류
 
@@ -29,7 +29,7 @@ Marchine Learning의 개념및 용어 정리
 
   예를 들면, 사람이 강아지 이미지를 모아서 주고 그 이미지 데이터가 고양이라는 레이블이 달려있는 자료를 가지고 학습을 하는 것이다. 즉, 결과를 알려주고 학습을 시키는 방법이다.
 
-  ![http://hunkim.github.io/ml/](./Supervised Learning.PNG)  
+  ![https://github.com/YoongChanKim/TIL/blob/master/Marchine%20Learning/Supervised%20Learning.PNG?raw=true](./Supervised Learning.png)  
 
 ### Unsupervised Learning(비지도 학습)
 사람 없이 컴퓨터가 스스로 레이블 되어 있지 않은 데이터에 대해 학습하는 것을 Unsupervised Learning(비지도 학습)이라고 한다. 레이블(y)없이 입력(x)만 이용해서 학습하는 것이다. 통계학의 군집화와 분포추정 등의 분야와 밀접한 관련이 있다
@@ -38,7 +38,8 @@ Marchine Learning의 개념및 용어 정리
 - 분포추정(Underlying Probability Density Estimation)은 군집화에서 더 나아가 데이터들이 쭉 뿌려져 있을 때 얘네들이 어떤 확률 분포에서 나온 샘플들인지 추정하느 문제이다.
 
 __지도 학습(Supervised)과 비지도 학습(Unsupervised)의 차이점(Graph)__
-![http://bcho.tistory.com/966](./ML-graph.PNG)
+
+![http://cfile29.uf.tistory.com/image/2440C341544F9CAC3CF8D4](./ML-graph.png)
 
 ### Semisupervised Learning(반지도 학습)
 레이블이 있는 데어터와 없는 데이터 모두를 활용해서 학습하는 것이다. 다수의 레이블 없는 데이터를 약간의 레이블 있는 데이터로 보충해서 학습하는 종류의 문제를 다룬다.
