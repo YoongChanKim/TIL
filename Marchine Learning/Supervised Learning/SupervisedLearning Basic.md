@@ -17,7 +17,7 @@ x (공부 시간) | y (성적)
 
 ## Supervised Learning 유형
 
-### Regression
+### Regression(예측)
 시험 준비에 투자한 시간에 따른 성적 분포 예측
 
 data set 모습
@@ -29,8 +29,8 @@ x (공부 시간) | y (성적)
 4 | 50
 2 | 30
 
-### Binary classification
-시험 준비에 투자한 시간에 따른 Pass/Fail 두가지로 나눌 때
+### Binary classification(분류)
+시험 준비에 투자한 시간에 따른 Pass/Fail 두가지로 분류
 
 data set 모습     
 
@@ -41,8 +41,8 @@ x (공부 시간) | y (성적)
 4 | fail
 2 | fail
 
-### multi-label classification
-시험 준비에 투자한 시간에 따른 A, B, C, D, E..를 나눌 때
+### multi-label classification(분류)
+시험 준비에 투자한 시간에 따른 A, B, C, D, E..를 분류
 
 data set 모습
 
