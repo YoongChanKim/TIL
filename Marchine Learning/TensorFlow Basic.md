@@ -9,7 +9,7 @@ TensorFlow(텐서플로우)는 Marchine Learning과 Deep Learning을 위해 구�
 ## Data Flow Graph (데이터 플로우 그래프)
 Data Flow Graph는 수학 계산과 데이터의 흐름을 Node(노드)와 Edge(엣지)를 사용한 방향 그래프(Directed Graph)로 표현한다.
 
-![https://camo.githubusercontent.com/4ee55154486232ec9edd8f1a3bad4c4a146f6cfe/68747470733a2f2f7777772e74656e736f72666c6f772e6f72672f696d616765732f74656e736f72735f666c6f77696e672e676966](./TF Image/DataFlowGraph.gif)
+![](https://github.com/YoongChanKim/TIL/blob/master/Marchine%20Learning/TF_Image/DataFlowGraph.gif)
 
 Node(노드)는 수학적 연산(계산, Operation), 데이터 입/출력, 데이터 읽기/저장 등의 작업을 수행한다. Edge(엣지)는 노드들 간 데이터의 입출력 관계를 나타낸다.
 
