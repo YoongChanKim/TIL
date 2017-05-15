@@ -50,3 +50,8 @@ Hypothesis의 결과에서 y를 뺀 다음에 제곱을 하는 이유 2가지
 __목적은 Cost를 최소로 만드는 W(기울기)와 b(절편)를 찾는 것이다!__
 
 Cost(W,b)로 시작하는 공식을 보면, 실제로는 W와 b가 보이지 않는다. H(x)안에 있어서 보이지 않는다고 느낀다. Cost(W,b)를 이해할 때 W와 b가 바뀔 때마다 오른쪽 식의 결과가 달라진다고 생각하면 된다. 즉, W와 b를 공식에 적용하는 과정에서 Cost가 줄어들도록 W와 b를 변경하는 것이 진짜 중요하다!!!!
+
+### 참고 문서
+- https://ko.wikipedia.org/wiki/%EC%84%A0%ED%98%95_%ED%9A%8C%EA%B7%80#.EC.B5.9C.EC.86.8C.EC.A0.88.EB.8C.80.ED.8E.B8.EC.B0.A8.28Least_absolute_deviation_:_LAD.29
+- http://bcho.tistory.com/967
+- http://gnujoow.github.io/ml/2016/01/26/ML1-Linear-Regression-with-One-Variable/
