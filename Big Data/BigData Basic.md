@@ -23,7 +23,10 @@ __데이터의 양__
 ※ 용어
 - 분산 컴퓨팅(Distributed computing) :  인터넷에 연결된 여러 컴퓨터들의 처리 능력을 이용하여 거대한 계산 문제를 해결하려는 분산처리 모델이다.
 - 병렬 컴퓨팅(Parallel computing) : 동시에 많은 계산을 하는 연산의 한 방법이다. 크고 복잡한 문제를 작게 나눠 동시에 병렬적으로 해결하는 데에 주로 사용되며, 병렬 컴퓨팅에는 여러 방법과 종류가 존재한다.
+
 ![https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Distributed-parallel.svg/300px-Distributed-parallel.svg.png](./Image/Distributed-parallel.png)
+
+(a),(b)는 분산 컴퓨팅 / (c)는 병렬 컴퓨팅
 
 분산 시스템은 네트워크로 이루어진 컴퓨터들의 그룹이며, 업무를 위해 공통의 목표를 가지고 있다. 병행 컴퓨팅, 병렬 컴퓨팅, 분산 컴퓨팅은 서로 겹치는 부분이 많으며 이들 중 분명한 차이가 존재하지는 않지만 큰 의미에서의 차이는 병렬 컴퓨팅은 순차적으로 처리하지만 분산 컴퓨팅은 마구잡이로 처리를 한다.
 
