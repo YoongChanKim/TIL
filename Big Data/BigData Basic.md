@@ -72,6 +72,7 @@ __데이터 다양성__
 ### 표현 기술
 빅 데이터 분석 기술을 통해 분석된 데이터의 의미와 가치를 시각적으로 표현하기 위한 기술로 대표적인 것으로 R 언어가 있다.
 
+![http://www.goldenplanet.co.kr/wp/wp-content/uploads/2016/05/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D%EA%B0%80-%EA%B0%80%EC%B9%98.jpg](./Image/BigData2.jpg)
 
 ## 활용사례
 
