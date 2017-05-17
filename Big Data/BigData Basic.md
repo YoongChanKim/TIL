@@ -10,6 +10,7 @@ Big Data Basic
 
 ## 빅데이터의 3대 요소(3v)
 빅 데이터의 3대 요소(3v)란 크기(Volume), 속도(Velocity), 다양성(Variety)를 의미한다. 3대 요소(3v)가운데 두가지 이상만 충죽한다면 빅 데이터라고 볼 수 있다.
+
 ![http://cfile23.uf.tistory.com/image/1618114950017CF83B8DD1](./Image/3v.jpg)
 
 
