@@ -90,6 +90,10 @@ __데이터 다양성__
 
 
 ### 출처 및 참고 문서
-https://ko.wikipedia.org/wiki/%EB%B9%85_%EB%8D%B0%EC%9D%B4%ED%84%B0#.EC.A0.95.EC.9D.98
+- https://ko.wikipedia.org/wiki/%EB%B9%85_%EB%8D%B0%EC%9D%B4%ED%84%B0#.EC.A0.95.EC.9D.98
 
-http://blrunner.com/12
+- http://blrunner.com/12
+
+- http://m.blog.naver.com/aspkorea/220604286325
+
+- https://brunch.co.kr/@chunje2/66
