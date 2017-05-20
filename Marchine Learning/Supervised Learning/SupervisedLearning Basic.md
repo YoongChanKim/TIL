@@ -58,7 +58,7 @@ x (공부 시간) | y (성적)
 
 ![http://gnujoow.github.io/assets/posts/MachineLearning/ml1-2.png](../ML_Image/ML-action.png)
 
-위 그림과 같이 training set(트레이닝 셋)을 Learning algorithm(학습 알고리즘)에 넘겨주면 알고리즘은 데이터를 학습을 하여 하나의 Hypothesis function(가설함수)를 만든다. Hypothesis은 Feature(x)를 넣으면 Targeted value(y)를 계산 해주는 일종의 공식이다.
+위 그림과 같이 training set(트레이닝 셋)을 Learning algorithm(학습 알고리즘)에 넘겨주면 알고리즘은 데이터를 학습을 하여 하나의 Hypothesis function(가설함수)를 만든다.그리고 Hypothesis는 Feature(x)를 넣으면 Targeted value(y)를 계산 해주는 일종의 공식이다.
 
 
 
