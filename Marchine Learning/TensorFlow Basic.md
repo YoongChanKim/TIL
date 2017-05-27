@@ -65,11 +65,11 @@ $ python
 
 ## 기본 용어
 
-### Operation(오퍼레이션)
-그래프 상의 노드는 오퍼레이션(op)으로 불린다. Operation(오퍼레이션)은 하나 이상의 Tensor(텐서)를 받을 수 있다. Operation(오퍼레이션)은 계산을 수행하고, 결과를 하나 이상의 Tensor(텐서)로 반환할 수 있다.
-
 ### Tensor(텐서)
 내부적으로 모든 데이터는 텐서를 통해 표현된다. Tensor(텐서)는 일종의 다차원 배열인데, 그래프 내의 Operation 간에는 Tensor만이 전달된다.
+
+### Operation(오퍼레이션)
+그래프 상의 노드는 오퍼레이션(op)으로 불린다. Operation(오퍼레이션)은 하나 이상의 Tensor(텐서)를 받을 수 있다. Operation(오퍼레이션)은 계산을 수행하고, 결과를 하나 이상의 Tensor(텐서)로 반환할 수 있다.
 
 ### Session(세션)
 그래프를 실행하기 위해서는 Session 객체가 필요하다. Session은 Operation의 실행 환경을 캡술화 한 것이다.
@@ -77,9 +77,6 @@ $ python
 ### Variables(변수)
 변수는 그래프의 실행시, 파라미터를 저장하고 갱신하는데 사용된다. 메모리 상에서 Tensor를 저장하는 버퍼 역활을 한다.
 
-
-### 예제
-기본 개념 이해를 위한 예제
 
 ```
 import tensorflow as tf
@@ -115,8 +112,19 @@ __결과__
 2
 3
 ```
+## Tensor Ranks, Shapes, Type
+TensorFlow 프로그램은 모든 데이터를 Tensor데이터 구조를 사용하여 표현하는데 TensorFlow의 Tensor는 n-차원 배열 or list라 생각하면 편하다. 하나의 Tensor는 정적 타입과 동적 차원을 갖고 있다.
 
+### Ranks
+TensorFlow 시스템에서, Tensor는 Rank라는 차원 단위로 표현된다. Tensor의 차원 수다. 간단하게 배열의 차원이라고 보면된다.
 
+Rank| Math entity | Python example
+---|---|---
+0 | Scalar(magnitude) | s = 123
+1 | Vector(magnitude and direction) | v = [1.1, 2.2, 3.3]
+2 | Matrix(table of numbers) | m = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+3 | 3-Tensor (cube of numbers)|
+n ||
 ## Tensor Board
 텐서플로우를 사용해서 딥뉴럴 넷 같은 복잡한 계산을 할 때는 학습 과정이 복잡하고 이해하기 어렵다. 이때 Tensor Board를 사용하면 복잡한 학습 과정을 시각화하여 볼 수 있다.
 ![https://camo.githubusercontent.com/6d27120ae60b4dae9f9ffd83f68460ab811771ee/68747470733a2f2f7777772e74656e736f72666c6f772e6f72672f76657273696f6e732f6d61737465722f696d616765732f6d6e6973745f74656e736f72626f6172642e706e67](./TF_Image/Tensor Board.png)
