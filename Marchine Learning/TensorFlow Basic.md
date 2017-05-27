@@ -116,15 +116,37 @@ __결과__
 TensorFlow 프로그램은 모든 데이터를 Tensor데이터 구조를 사용하여 표현하는데 TensorFlow의 Tensor는 n-차원 배열 or list라 생각하면 편하다. 하나의 Tensor는 정적 타입과 동적 차원을 갖고 있다.
 
 ### Ranks
-TensorFlow 시스템에서, Tensor는 Rank라는 차원 단위로 표현된다. Tensor의 차원 수다. 간단하게 배열의 차원이라고 보면된다.
+TensorFlow 시스템에서, Tensor는 Rank라는 차원 단위로 표현된다. Tensor의 차원 수다. 간단하게 배열의 차원이라고 생각하면 된다.
 
 Rank| Math entity | Python example
 ---|---|---
 0 | Scalar(magnitude) | s = 123
 1 | Vector(magnitude and direction) | v = [1.1, 2.2, 3.3]
 2 | Matrix(table of numbers) | m = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-3 | 3-Tensor (cube of numbers)|
-n ||
+3 | 3-Tensor (cube of numbers) | t = [[[2], [4], [6]], [[8], [10], [12]], [[14], [16], [18]]]
+n |n-Tensor (you get the idea)| ...
+
+### Shape
+TensorFlow 문서는 TensorFlow 차원을 표현할 때 세 가지 기호를 사용한다. rank, Shape, 차원수와 같이 세가지 관계를 보여준다. 간단하게 배열의 형태라고 생각하면 된다. Shape는 Python 리스트  / 정수형 튜플 또는  TensorShape class로 표현 할 수 있다.
+
+Rank | Shape | Dimension number | Example
+0 | [] | 0-D | 	A 0-D tensor. A scalar
+1 | [D0] | 1-D | A 1-D tensor with shape [5]
+2 | [D0, D1] | 2-D | A 2-D tensor with shape [3, 4]
+3 | [D0, D1, D2] | 3-D | A 3-D tensor with shape [1, 4, 3]
+n | [D0, D1, Dn-1] | n-D | 	A tensor with shape [D0, D1, ... Dn-1]
+
+ex) t = [[1, 2, 3],[4, 5, 6],[7, 8, 9]]
+shape = [3, 3]
+### Data types
+Tensor는 차원 말고도 데이터 타입도 갖는다. 아래의 데이터 타입을 tensor에 지정할 수 있다.
+
+Data type | Python type | Description
+DT_FLOAT | tf.float32	| 32 비트 부동 소수
+DT_DOUBLE |	tf.float64 | 64 비트 부동 소수
+DT_INT8	| tf.int8	| 8 비트 부호 있는 정수
+... | ... | ...
+
 ## Tensor Board
 텐서플로우를 사용해서 딥뉴럴 넷 같은 복잡한 계산을 할 때는 학습 과정이 복잡하고 이해하기 어렵다. 이때 Tensor Board를 사용하면 복잡한 학습 과정을 시각화하여 볼 수 있다.
 ![https://camo.githubusercontent.com/6d27120ae60b4dae9f9ffd83f68460ab811771ee/68747470733a2f2f7777772e74656e736f72666c6f772e6f72672f76657273696f6e732f6d61737465722f696d616765732f6d6e6973745f74656e736f72626f6172642e706e67](./TF_Image/Tensor Board.png)
