@@ -147,6 +147,8 @@ DT_DOUBLE |	tf.float64 | 64 비트 부동 소수
 DT_INT8	| tf.int8	| 8 비트 부호 있는 정수
 ... | ... | ...
 
+(역주: quantized op는 fixed-point 데이터로써, quantized op에 의하면 아직 문서화 되지 않은 기능.)
+
 ## Tensor Board
 텐서플로우를 사용해서 딥뉴럴 넷 같은 복잡한 계산을 할 때는 학습 과정이 복잡하고 이해하기 어렵다. 이때 Tensor Board를 사용하면 복잡한 학습 과정을 시각화하여 볼 수 있다.
 ![https://camo.githubusercontent.com/6d27120ae60b4dae9f9ffd83f68460ab811771ee/68747470733a2f2f7777772e74656e736f72666c6f772e6f72672f76657273696f6e732f6d61737465722f696d616765732f6d6e6973745f74656e736f72626f6172642e706e67](./TF_Image/Tensor Board.png)
