@@ -28,7 +28,6 @@ Hypothesis 방정식을 포함하는 계산식이고 현재의 기울기(W)와 �
 Cost function을 이용하여 가설함수의 정확성을 알수 있다. 다른 이름으로는 Squared error function 혹은 Mean squared error라는 이름을 가지고 있다.
 
 ![http://cfile6.uf.tistory.com/image/2553F83E5790FD3425B75C](../ML_Image/Costfunction1.png)
-
 ![http://cfile9.uf.tistory.com/image/26447E3E5790FD352E03CC](../ML_Image/Costfunction2.png)
 
 위의 이미지 2장은 어떻게 직선으로부터 데이터가 위치한 좌표까지의 거리가 가까운지 판단하는 방법이다. 직선으로 표현하고 있지만, 이것은 x축에 대한 y값을 갖는 3개의 좌표라고 보면 좋다. 수직선을 내리거나 올려서 직선에 닿는 y좌표를 계산하면 공정한 거리를 얻을 수 있다.
