@@ -1,6 +1,6 @@
 Linear Regression(선형회귀)
 =================
-2차원 좌표에 분포된 데이터를 1차원 직선 방정식을 통해 표현되지 않은 데이터를 예측하기 위한 분석 모델이다. 간단하게 xy축 좌표계에서 직선을 그렸다 생각하면 된다.
+2차원 좌표에 분포된 데이터를 1차원 직선 방정식을 통해 표현되지 않은 데이터를 예측하기 위한 분석 모델이다. 간단하게 x, y축 좌표계에서 직선을 그렸다 생각하면 된다.
 
 ## 회귀분석
 점들이 퍼져있는 형태에서 패턴을 찾아내고, 이 패턴을 활용해서 무언가를 예측하는 분석이다. 새로운 표본을 뽑았을 때 평균으로 돌아가려는 특징이 있기 때문에 붙은 이름이다.
@@ -27,8 +27,9 @@ Hypothesis 방정싱에 대한 Cost(비용)로 방정식의 결과가 크게 나
 Hypothesis 방정식을 포함하는 계산식이고 현재의 기울기(W)와 절편(b)에 대해 Cost(비용)을 계산해 주는 함수이며, 매번 호출할 때마다 반환값으로 표현되는 비용이 줄어들어야 한다. 지금 Linear Regression에서는 최소 비용을 검색하는 역활을 한다.
 Cost function을 이용하여 가설함수의 정확성을 알수 있다. 다른 이름으로는 Squared error function 혹은 Mean squared error라는 이름을 가지고 있다.
 
-![http://cfile6.uf.tistory.com/image/2553F83E5790FD3425B75C](../ML_Image/Cost function1.png)
-![http://cfile9.uf.tistory.com/image/26447E3E5790FD352E03CC](../ML_Image/Cost function2.png)
+![http://cfile6.uf.tistory.com/image/2553F83E5790FD3425B75C](../ML_Image/Costfunction1.png)
+
+![http://cfile9.uf.tistory.com/image/26447E3E5790FD352E03CC](../ML_Image/Costfunction2.png)
 
 위의 이미지 2장은 어떻게 직선으로부터 데이터가 위치한 좌표까지의 거리가 가까운지 판단하는 방법이다. 직선으로 표현하고 있지만, 이것은 x축에 대한 y값을 갖는 3개의 좌표라고 보면 좋다. 수직선을 내리거나 올려서 직선에 닿는 y좌표를 계산하면 공정한 거리를 얻을 수 있다.
 
@@ -42,8 +43,8 @@ Hypothesis의 결과에서 y를 뺀 다음에 제곱을 하는 이유 2가지
 
 최종적으로 좌표가 3개 이므로, 3으로 나눈다. 나누지 않는다면 데이터가 많은 경우 값이 엄청나게 커지게 되고 이후 계산이 복잡해지기 때문이다. 평균을 내기 위해 합계를 구한 다음 갯수로 나눈것과 같다고 생각 하면 된다. ∑(시그마)는 오른쪽 식에 대해 1부터 m번째 까지를 적용한 합계를 뜻한다. 만약 시그마를 사용하지 않으면 위쪽에 표현된 복잡한 계산식을 다 써야 하고, 데이터가 100개쯤 되면 쓸 방법도 없게된다. Σ(시그마)에서도 1에서 m개라고 얘기하고,전체 갯수로 나누기 위해 1/m이 사용된다. 거리의 제곱을 취하는 방법을 LSM(Least square Method)라 부른다. 통계학 관련서적에 보면, 절대값을 이용한 처리보다 제곱을 하여 처리하는 것이 더 강하다고 알려져 있다. 또한, 다른 방법으로 표준편차를 이용한 방법도 있지만 미분하기가 어렵다.
 
-![http://cfile25.uf.tistory.com/image/213E983E5790FD353315CE](../ML_Image/Cost function3.png)
-![http://cfile10.uf.tistory.com/image/2168D33E5790FD36184585](../ML_Image/Cost function4.png)
+![http://cfile25.uf.tistory.com/image/213E983E5790FD353315CE](../ML_Image/Costfunction3.png)
+![http://cfile10.uf.tistory.com/image/2168D33E5790FD36184585](../ML_Image/Costfunction4.png)
 
 왼쪽 이미지를 보면 아까있던 식을 정리한 것이다. 데이터까지의 합계를 m으로 나눈 결과는 Hypothesis(가설)에 대한 Cost(비용)이다.
 
