@@ -12,3 +12,6 @@ $ sudo apt-get install python-numpy
 ```
 
 상단의 명령어를 이용하여 설치를 한후 잘 설치를 한다.
+
+### 참고 자료
+http://blog.naver.com/cosmosjs/220723901506
