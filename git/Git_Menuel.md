@@ -147,6 +147,11 @@ GIT을 사용하는 방법에는 git명령어를 사용하는 방법과 프로�
   git remote add origin 레포지토리 URL 작성
   ```
 
+### 파일 명이 길어서 add, commit, push, pull명령어가 안먹을 때 사용하는 명령어
+```
+git config core.longpaths true
+```
+명령어 작성 후 다시 시도한다.
 ### 방법 2: GUI 환경
 GUI 환경의 경우에는 다양한 프로그램들이 있어 원하시는 프로그램을 설치 하여 사용하시면 됩니다. cui환경의 기본적인 명령어만 숙지하면 쉽게 사용할 수 있다.
 예) git gui, tortoiseGit, etc..
